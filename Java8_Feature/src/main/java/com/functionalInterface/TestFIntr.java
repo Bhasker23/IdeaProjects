@@ -4,6 +4,7 @@ public class TestFIntr{
 
     public static void main(String[] args) {
 
+        //        without Lambda expression.
         FInterface find = new FInterface() {
             @Override
             public int calculateSquare(int a) {
@@ -11,5 +12,6 @@ public class TestFIntr{
             }
         };
         System.out.println(find.calculateSquare(5));
+
     }
 }
